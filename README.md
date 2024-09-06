@@ -14,7 +14,7 @@
 
 ## Démo
 
-Une démo du site est disponible à [URL de la démo] (si disponible).
+Une démo du site est disponible à [URL de la démo] (A VENIR...).
 
 ## Prérequis
 
