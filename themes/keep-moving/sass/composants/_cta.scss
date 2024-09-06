@@ -1,0 +1,36 @@
+.cta {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+
+  h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(135deg, #6a00f4, #f000f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #6a00f4;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #8e44ad;
+    }
+  }
+}

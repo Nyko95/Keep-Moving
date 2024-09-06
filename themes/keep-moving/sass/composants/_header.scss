@@ -1,0 +1,52 @@
+/* Style spécifique pour le header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .logo {
+      a {
+        display: block;
+        img {
+          max-height: 50px;
+        }
+      }
+    }
+
+    nav {
+      .nav-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+          margin: 0 15px;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-family: "Bebas Neue", sans-serif; // Police dynamique pour le menu
+            font-weight: bold;
+            transition: color 0.3s;
+
+            &:hover {
+              color: #f0f0f0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
