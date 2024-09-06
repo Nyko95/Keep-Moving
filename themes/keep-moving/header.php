@@ -15,12 +15,19 @@
       </a>
     </div>
     <nav>
-      <?php
-        wp_nav_menu(array(
-          'theme_location' => 'header-menu',
-          'menu_class' => 'nav-menu'
-        ));
-      ?>
+      <ul class="nav-menu">
+        <!-- Lien Accueil statique -->
+        <li><a href="<?php echo esc_url(home_url('/')); ?>">Accueil</a></li>
+        <!-- Liens dynamiques via le menu WordPress -->
+        <?php
+          wp_nav_menu(array(
+            'theme_location' => 'header-menu',
+            'menu_class' => '',
+            'container' => false, // Enlève le conteneur div inutile
+            'items_wrap' => '%3$s' // Enlève les <ul> supplémentaires générés par wp_nav_menu()
+          ));
+        ?>
+      </ul>
     </nav>
   </div>
 </header>
